@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página educativa sobre o funcionamento da internet, Wi-Fi, transmissão de dados e fibra óptica.">
+  <title>Como a Internet Funciona?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav"><span class="brand">🌐 Internet por dentro</span><a href="#quiz">Testar conhecimento</a></nav>
+    <div class="hero-content">
+      <p class="eyebrow">ATIVIDADE EXTENSIONISTA II · UNINTER</p>
+      <h1>Como a internet<br><span>chega até você?</span></h1>
+      <p>Descubra o que acontece quando você envia uma mensagem, abre um vídeo ou acessa um site.</p>
+      <a class="button" href="#conteudo">Começar a aprender</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="intro">
+      <p class="eyebrow">ENTENDA DE FORMA SIMPLES</p>
+      <h2>A internet está em todo lugar. Mas como funciona?</h2>
+      <p>A internet é um conjunto de muitas redes conectadas. Elas permitem que celulares, computadores, escolas, empresas e servidores troquem informações.</p>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <div class="icon">🌍</div><h3>1. O que é internet?</h3>
+        <p>É uma rede mundial formada por muitas redes menores que se comunicam. É como um conjunto de estradas conectadas, por onde as informações podem viajar.</p>
+      </article>
+      <article class="card">
+        <div class="icon">📶</div><h3>2. Wi-Fi é internet?</h3>
+        <p>Não são a mesma coisa. O Wi-Fi conecta seu aparelho ao roteador sem fio. A internet permite acessar redes e serviços que estão fora da sua rede local.</p>
+      </article>
+      <article class="card">
+        <div class="icon">✉️</div><h3>3. Como os dados chegam?</h3>
+        <p>Quando você envia uma mensagem, os dados saem do aparelho, passam por equipamentos e redes e chegam ao destino. A resposta retorna pela rede.</p>
+      </article>
+      <article class="card">
+        <div class="icon">📦</div><h3>4. O que são pacotes?</h3>
+        <p>As informações podem ser divididas em pequenas partes chamadas pacotes. No destino, essas partes são organizadas para que a informação seja utilizada.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🧩</div><h3>5. Como os aparelhos se entendem?</h3>
+        <p>Os dispositivos seguem regras de comunicação. As camadas organizam as tarefas: os aplicativos, o transporte dos dados, os endereços e a conexão pela rede.</p>
+      </article>
+      <article class="card">
+        <div class="icon">💡</div><h3>6. O que é fibra óptica?</h3>
+        <p>É um fio muito fino, feito de vidro especial, que conduz sinais de luz. Esses sinais transportam informações entre equipamentos.</p>
+      </article>
+    </section>
+
+    <section class="journey">
+      <p class="eyebrow">VEJA O CAMINHO</p>
+      <h2>Do seu celular até o mundo</h2>
+      <p class="section-lead">Exemplo simplificado do caminho quando você acessa um vídeo ou site.</p>
+      <div class="flow">
+        <div class="step"><span>📱</span><b>Celular</b><small>Você faz o pedido</small></div>
+        <div class="arrow">→</div>
+        <div class="step"><span>📡</span><b>Roteador</b><small>Conecta seu aparelho</small></div>
+        <div class="arrow">→</div>
+        <div class="step"><span>🏢</span><b>Provedor</b><small>Encaminha os dados</small></div>
+        <div class="arrow">→</div>
+        <div class="step"><span>🖥️</span><b>Servidor</b><small>Entrega o serviço</small></div>
+      </div>
+      <p class="note">O caminho real pode passar por vários equipamentos e redes. A resposta retorna até seu aparelho.</p>
+    </section>
+
+    <section class="ftth">
+      <div>
+        <p class="eyebrow">FIBRA ATÉ A RESIDÊNCIA</p>
+        <h2>Como a conexão chega à sua casa?</h2>
+        <p>Em uma rede FTTH (fibra até a residência), a conexão sai da estrutura do provedor, percorre cabos de fibra óptica e chega ao equipamento instalado no cliente. O roteador distribui a conexão para celulares, computadores e televisões.</p>
+      </div>
+      <div class="ftth-flow">
+        <div>Central do provedor</div><b>↓</b><div>Cabos de fibra</div><b>↓</b><div>Caixa de distribuição</div><b>↓</b><div>Equipamento do cliente</div><b>↓</b><div>Roteador Wi-Fi</div>
+      </div>
+    </section>
+
+    <section class="quiz" id="quiz">
+      <p class="eyebrow">HORA DE REVISAR</p>
+      <h2>Teste o que você aprendeu</h2>
+      <p class="section-lead">Responda às perguntas e confira seu resultado.</p>
+      <form id="quizForm">
+        <div id="questions"></div>
+        <button class="button" type="submit">Ver meu resultado</button>
+      </form>
+      <p id="result" class="result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Projeto: Ensinar Como a Internet Funciona</strong></p>
+    <p>Atividade Extensionista II – Tecnologia Aplicada à Inclusão Digital · UNINTER</p>
+    <p>Adriano Gilberto da Silva · Canoas – RS</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
