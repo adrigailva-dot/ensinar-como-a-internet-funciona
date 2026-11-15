@@ -1,32 +1,17 @@
-# Projeto: Ensinar Como a Internet Funciona
+# Projeto: Como a Internet Funciona
 
-Projeto educativo desenvolvido como complemento da Atividade Extensionista II – Tecnologia Aplicada à Inclusão Digital, do curso de Gestão da Tecnologia da Informação (UNINTER).
+Material educativo complementar à Atividade Extensionista II – Tecnologia Aplicada à Inclusão Digital (UNINTER).
 
-## Objetivo
-Apresentar, em linguagem simples, conceitos básicos sobre o funcionamento da internet para estudantes do Ensino Médio.
+## Conteúdo
+- Palestra completa organizada em etapas: conceito de internet, Wi-Fi, caminho dos dados, pacotes, camadas de comunicação, infraestrutura, fibra óptica e exemplo de rede FTTH.
+- Demonstração prática sugerida com cabo de fibra, splitter e roteador.
+- Revisão interativa com oito perguntas e feedback das respostas.
+- QR Code no final da página para acessar o questionário de aprendizagem no Google Forms.
 
-## Conteúdos
-- O que é internet;
-- Diferença entre Wi-Fi e internet;
-- Caminho percorrido pelas informações;
-- Pacotes de dados e comunicação em camadas;
-- Infraestrutura de rede;
-- Fibra óptica e conexão FTTH.
+## Publicação no GitHub Pages
+1. Envie os arquivos `index.html`, `style.css`, `script.js`, `qr-questionario.png` e `README.md` para a raiz do repositório.
+2. Confirme o envio em **Commit changes**.
+3. Em **Settings > Pages**, mantenha `Deploy from a branch`, branch `main` e pasta `/ (root)`.
+4. Aguarde a publicação do GitHub Pages.
 
-## Arquivos
-- `index.html`: estrutura e conteúdo da página;
-- `style.css`: aparência e adaptação para celulares;
-- `script.js`: funcionamento do questionário interativo.
-
-## Como visualizar
-Baixe os três arquivos (`index.html`, `style.css` e `script.js`) para a mesma pasta e abra `index.html` em um navegador.
-
-## Publicação
-O projeto pode ser publicado gratuitamente pelo GitHub Pages após ser enviado a um repositório GitHub.
-
-## Autor
-Adriano Gilberto da Silva  
-Canoas – RS
-
-## Observação
-Este material é um recurso educativo complementar à palestra. O questionário desta página funciona localmente no navegador e não armazena nem envia respostas para um servidor.
+O questionário externo é acessado pelo link https://forms.gle/mKWv56MaDsfJd8JK6.
